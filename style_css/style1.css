@@ -1,0 +1,143 @@
+.grid-box_html{
+    width: 98vw;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.3fr 0.6fr 0.4fr 0.6fr 0.4fr;
+    grid-template-areas: 
+    "grid1 grid1 grid1"
+    "grid2 grid6 grid7"
+    "grid2 grid6 grid7"
+    "grid3 grid4 grid5"
+    "grid3 grid4 grid5"
+    ;
+    grid-gap: 10px;
+}
+
+.grid-box_data {
+    width: 98vw;
+    background-color: azure;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.6fr 1fr 0.4fr;
+    grid-template-areas:
+        "grid1 grid1 grid1"
+        "grid3 grid6 grid6"
+        "grid2 grid4 grid5"
+        "grid2 grid7 grid7"
+    ;
+    grid-gap: 10px;
+}
+
+.grid-box_c {
+    width: 98vw;
+    background-color: azure;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.2fr 0.8fr 0.4fr;
+    grid-template-areas:
+        "grid1 grid3 grid4"
+        "grid1 grid2 grid4"
+        "grid5 grid2 grid7"
+        "grid5 grid6 grid7"
+    ;
+    grid-gap: 10px;
+}
+
+.grid-box_management {
+    width: 98vw;
+    background-color: azure;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.09fr 1fr 0.3fr 0.5fr;
+    grid-template-areas:
+        "grid1 grid2 grid3"
+        "grid1 grid2 grid3"
+        "grid4 grid6 grid7"
+        "grid4 grid5 grid5"
+    ;
+    grid-gap: 10px;
+}
+
+.grid-box_javascript {
+    width: 98vw;
+    background-color: azure;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.09fr 1fr 0.3fr 0.65fr;
+    grid-template-areas:
+        "grid1 grid1 grid3"
+        "grid4 grid2 grid3"
+        "grid5 grid6 grid7"
+        "grid5 grid6 grid7"
+    ;
+    grid-gap: 10px;
+}
+
+.grid-box_python {
+    width: 98vw;
+    background-color: azure;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.3fr 0.8fr 0.09fr 1fr;
+    grid-template-areas:
+        "grid1 grid3 grid2"
+        "grid1 grid7 grid7"
+        "grid5 grid4 grid6"
+        "grid5 grid4 grid6"
+    ;
+    grid-gap: 10px;
+}
+
+.grid1{
+    grid-area: grid1;
+    background-color: lightcoral ;
+}
+
+.grid2 {
+    grid-area: grid2;
+    background-color: lightskyblue;
+}
+
+.grid3 {
+    grid-area: grid3;
+    background-color: lightseagreen;
+}
+
+.grid4 {
+    grid-area: grid4;
+    background-color: cornflowerblue;
+}
+
+.grid5 {
+    grid-area: grid5;
+    background-color: mediumaquamarine;
+}
+
+.grid6 {
+    grid-area: grid6;
+    background-color: palegoldenrod;
+}
+
+.grid7 {
+    grid-area: grid7;
+    background-color: palevioletred;
+}
+.common-grid{
+    border: 0.1vw solid grey;
+    text-align: center;
+    padding: 5px;
+    margin-top: 6px;
+    border-radius: 10px;
+    box-shadow: 1px -1px 5px grey;
+}
+
+.common-grid:hover {
+    background-color: azure;
+    box-shadow: -1px -1px 3px;
+}
